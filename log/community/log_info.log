@@ -1,0 +1,7 @@
+2022-04-19 16:01:16,632 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 1.8.0_301 on MSI with PID 29528 (started by 金伸睿 in D:\codingstudio\Java\WorkDir\community)
+2022-04-19 16:01:16,636 INFO [main] c.n.c.LoggerTests [SpringApplication.java:660] No active profile set, falling back to default profiles: default
+2022-04-19 16:01:18,681 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-19 16:01:18,843 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-04-19 16:01:19,347 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:61] Started LoggerTests in 3.228 seconds (JVM running for 4.386)
+2022-04-19 16:01:19,589 INFO [main] c.n.c.LoggerTests [LoggerTests.java:29] info log
+2022-04-19 16:01:19,602 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
