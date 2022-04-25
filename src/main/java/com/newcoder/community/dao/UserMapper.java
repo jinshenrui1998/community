@@ -2,6 +2,7 @@ package com.newcoder.community.dao;
 
 import com.newcoder.community.entity.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * Created on 2022/4/1 -- 16:09.
@@ -21,7 +22,7 @@ public interface UserMapper {
 
     int insertUser(User user);
 
-    int updateStatus(int id, int status);
+    int updateStatus(@Param("id") int id, @Param("status") int status);
 
     int updateHeader(int id, String headerUrl);
 
